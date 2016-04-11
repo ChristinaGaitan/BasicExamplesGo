@@ -15,7 +15,8 @@ func main() {
 
 	fmt.Println(nombres)
 
-	// for i, nombres := range nombres{
-	//  	fmt.Println(nombres, &nombres[i])
-	//  }
+	// Para obtener la dirección &nombres[i]
+	for i, nombre := range nombres{
+	  	fmt.Println(nombre, &nombres[i])
+	}
 }
